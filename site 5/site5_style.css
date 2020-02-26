@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+
+* > *{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+ }
+
+
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #be3144;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    text-align: right;
+    z-index: 1;
+}
+
+nav a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 19px;
+    position: relative;
+    right: 75px;
+    font-size: 1.3rem;
+}
+
+nav a:hover {
+    background-color: #303841;
+}
+
+#veld1 {
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 100vh;
+    color: black;
+}
+
+#veld1 #tekstblok {
+    position: relative;
+    top: 43vh;  
+    color: black;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-style: bolder;
+    font-weight: 1000;
+    text-align: center;
+    color: white;
+}
+
+#veld1 #tekstblok p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #be3144;
+}
+
+
+
+
+
+
+#veld2 {
+    background-color: #45567d;
+
+}
+
+#veld2 h1 {
+    display: block;
+    border-bottom: 0.2rem solid white;
+    padding-bottom: 15px;
+    font-size: 40px;
+    width: 50%;
+    max-width: 600px;
+    min-width: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+
+#veld2 #metablok {
+    width: 95%;
+    max-width: 1250px;
+    margin: 50px auto 0px auto;
+
+}
+
+.grid {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center;
+  }
+  
+  .grid .item {
+    height: 430px;
+  }
+
+  .item img {
+    width: 100%;
+    height: 80%;
+  }
+
+  .item .linkbutton {
+    height: 20%;
+    background-color: #303841;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+
+#allesknop {
+    width: 200px;
+    margin: 50px auto 40px auto;
+    background-color: #303841;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 12px 0px 12px 0px;
+}
+ 
+#allesknop:hover {
+    background-color: #be3144;
+}
+
+
+
+
+
+
+
+
+#veld3 {
+    background-color: #303841;
+    height: 100vh;
+}
+
+#veld3 #tekstblok {
+    position: relative;
+    top: 43vh;
+}
+
+#veld2 h1 {
+    display: block;
+    border-bottom: 0.0rem solid white;
+    padding-bottom: 15px;
+    font-size: 40px;
+    width: 50%;
+    max-width: 600px;
+    min-width: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+
+#veld3 #tekstblok p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+#veld3 #linkblok {
+    position: relative;
+    top: 53vh;
+    text-align: center;
+}
+
+#veld3 #linkblok i {
+    padding-right: 5px;
+}
+#veld3 #linkblok a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #303841;
+    border-top: 3px red solid;
+    text-align: center;
+}
+
+footer div {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin: 15px 0px 20px 0px;
+}
+
+footer .row {
+    display: flex;
+  }
+  
+footer .column {
+    flex: 90%;
+    padding: 10px;
+  }
+
